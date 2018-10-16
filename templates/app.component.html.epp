@@ -40,7 +40,7 @@
                     <tr>
                         <td><%= $hostname %></td>
                         <td><%= $operatingsystem %></td>
-                        <td><%= $networking[ip] %></td>
+                        <td><%= $ipaddress %></td>
                     </tr>
                 </tbody>
             </table>
