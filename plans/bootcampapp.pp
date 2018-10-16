@@ -1,13 +1,5 @@
-plan demoapp::bootcampapp (
-	TargetSpec $nodes
-) {
 
-   $nodes.apply_prep
-
-   apply($nodes) {
-       $html_dir = '/var/www/html'
-
-       Package {'nginx':
+  Package {'nginx':
          ensure => present,
        }
 
@@ -19,7 +11,7 @@ plan demoapp::bootcampapp (
    file { "/tmp/cmbu-bootcamp-app/frontend-tier/src/app/app.component.html":
     ensure  => file,
     force   => true,
-    content => epp('/root/.puppetlabs/bolt/modules/demoapp/templates/app.component.html.epp'),
+    content => epp('/root/puppet-demoapp/modules/demoapp/templates/app.component.html.epp'),
     require => Exec['git clone']
     }
 
@@ -75,7 +67,4 @@ plan demoapp::bootcampapp (
    exec { 'restart nginx':
        command => '/bin/systemctl restart nginx',
        require => File['/usr/share/nginx/html']
-        }  
-
-}
-}
+        } 
