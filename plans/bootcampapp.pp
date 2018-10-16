@@ -11,7 +11,7 @@
   file { "/tmp/cmbu-bootcamp-app/frontend-tier/src/app/app.component.html":
     ensure  => file,
     force   => true,
-    content => epp('/puppet-demoapp/modules/demoapp/templates/app.component.html.epp'),
+    content => epp('/puppet-demoapp/templates/app.component.html.epp'),
     require => Exec['git clone']
     }
 
