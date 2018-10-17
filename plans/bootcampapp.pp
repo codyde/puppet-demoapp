@@ -32,14 +32,13 @@
       require => File['/tmp/cmbu-bootcamp-app/frontend-tier/src/app/app.component.html']
       }
 
-  exec { 'install node':
-      command => '/usr/bin/apt install nodejs',
-      require => Exec['install repo']
-      }
+  Package { 'nodejs':
+     ensure => present
+     }
 
   exec { '@angular/cli':
      command   => '/usr/bin/npm install -g @angular/cli',
-     require => Exec['install node']
+     require => Package['nodejs']
        }
 
   exec { 'npm install':
