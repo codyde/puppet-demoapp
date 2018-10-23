@@ -63,13 +63,16 @@
         force => true,
         require => Exec['ng build --prod']
         }
+        
+  Service { 'nginx':
+    ensure => 'running',
+    enable => true,
+    require => Package['nginx']
+    }
+    
 
   exec { 'remove old nginx confs':
+        notify => Service['nginx'],
         command => '/bin/rm -rf /etc/nginx/sites-available/* && /bin/rm -rf /etc/nginx/sites-enabled/*',
         require => File['/usr/share/nginx/html']
-        }
-
-  exec { 'restart nginx':
-       command => '/bin/systemctl restart nginx',
-       require => Exec['remove old nginx confs']
         }
