@@ -48,8 +48,9 @@
         </div>
         <nav class="sidenav">
             <section class="sidenav-content">
-            	<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/VMwareCAS?ref_src=twsrc%5Etfw">Tweets by VMwareCAS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </section>
+		<img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
+                <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
+                <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">            </section>
         </nav>
     </div>
 </div>
