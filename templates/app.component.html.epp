@@ -10,20 +10,20 @@
     <div class="content-container">
         <div class="content-area">
             <div style="text-align:center">
-                <h1>
+               <h1>
                     Cloud Automation Services Application Deployment with Puppet!
                 </h1>
                 <div>
-                    <img class="logo" width="75%" alt="BaneApp" src="../assets/banesies.gif">
+                    <img class="logo" width="75%" alt="CAS Builder Turtle" src="../assets/banesies.gif">
                 </div>
-                <div class=row>
-	                <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
-                    <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
-                    <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
-                </div>
+                    <div class=row>
+                        <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
+                        <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
+                        <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
+                    </div>
 		<h1>
-		    "You merely adopted the Cloud, I was born in it. Molded by it. I didn't see on-premises workloads until my Public Cloud Endpoints were complete." 
-		</h1>
+		            "You merely adopted the Cloud, I was born in it. Molded by it. I didn't see on-premises workloads until my Public Cloud Endpoints were complete." 
+		        </h1>
             </div>
             <div>   
             <table class="table">
@@ -46,8 +46,8 @@
         </div>
         <nav class="sidenav">
             <section class="sidenav-content">
-	    	<img class="logo" width="100" alt="vRA Logo" src="../assets/Puppet-Logo-Mark-Amber.png">
-	    </section>	
-	</nav>
+                <img class="logo" width="100" alt="vRA Logo" src="../assets/Puppet-Logo-Mark-Amber.png">
+            </section>
+        </nav>
     </div>
 </div>
