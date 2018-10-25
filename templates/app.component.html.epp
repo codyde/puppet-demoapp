@@ -14,15 +14,15 @@
                     Cloud Automation Services Application Deployment with Puppet!
                 </h1>
                 <div>
-                    <img class="logo" width="75%" alt="CAS Builder Turtle" src="../assets/banesies.gif">
+                    <img class="logo" width="35%" alt="Bane" src="../assets/banesies.gif">
                 </div>
                     <div class=row>
                         <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
                         <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
                         <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
                     </div>
-		<h1>
-		            "You merely adopted the Cloud, I was born in it. Molded by it. I didn't see on-premises workloads until my Public Cloud Endpoints were complete." 
+		        <h1>
+		            <i>"You merely adopted the Cloud, I was born in it. Molded by it. I didn't see on-premises workloads until my Public Cloud Endpoints were complete."</i>
 		        </h1>
             </div>
             <div>   
