@@ -3,7 +3,7 @@
         <div class="branding">
             <a href="..." class="nav-link">
                 <clr-icon shape="vm"></clr-icon>
-                <span class="title">CMBU Demo</span>
+                <span class="title">Demo App</span>
             </a>
         </div>
     </header>
@@ -14,22 +14,16 @@
                     Cloud Automation Services Application Deployment with Puppet!
                 </h1>
                 <div>
-                    <img class="logo" width="30%" alt="CAS Builder Turtle" src="../assets/banesies.gif">
+                    <img class="logo" width="75%" alt="BaneApp" src="../assets/banesies.gif">
                 </div>
                 <div class=row>
 	            <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
                     <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
                     <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
                 </div>
-                   <div class="hiddenicons">
-                    <div class=row>
-                    <img class="logo" width="50" alt="vRA Logo" src="../assets/ca.svg">
-                    <img class="logo" width="50" alt="vRA Logo" src="../assets/sb.svg">
-                    <img class="logo" width="50" alt="vRA Logo" src="../assets/cs.svg">
-                    </div>
                 </div>
 		<h1>
-		    #NoMoreWordpressDemos 
+		    "You merely adopted the Cloud, I was born in it. Molded by it. I didn't see on-premises workloads until my Public Cloud Endpoints were complete." 
 		</h1>
             </div>
             <div>   
