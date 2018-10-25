@@ -11,10 +11,15 @@
         <div class="content-area">
             <div style="text-align:center">
                 <h1>
-                    Welcome to Cloud Automation Services Puppet Demonstration!
+                    Cloud Automation Services Application Deployment with Puppet!
                 </h1>
                 <div>
-                    <img class="logo" width="50%" alt="CAS Builder Turtle" src="../assets/casbuilderturtle.png">
+                    <img class="logo" width="30%" alt="CAS Builder Turtle" src="../assets/banesies.gif">
+                </div>
+                <div>
+	                <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
+                    <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
+                    <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
                 </div>
                 <div class="hiddenicons">
                     <div class=row>
@@ -45,13 +50,11 @@
                 </tbody>
             </table>
             </div>
-        </div>
-        <nav class="sidenav">
+            <nav class="sidenav">
             <section class="sidenav-content">
-	        <img class="logo" width="100" alt="vRA Logo" src="../assets/ca.svg">
-                <img class="logo" width="100" alt="vRA Logo" src="../assets/sb.svg">
-                <img class="logo" width="100" alt="vRA Logo" src="../assets/cs.svg">
+                <img class="logo" width="100" alt="vRA Logo" src="../assets/Puppet-Logo-Mark-Amber.png">
             </section>
         </nav>
+        </div>
     </div>
 </div>
